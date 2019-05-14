@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+    
+  .header-container {
+    color: black;
+    background-color: white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .header {
+    width: 900px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .image-grid-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .image-grid {
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .image-grid-item {
+    width: 105px;
+    height: 147px;
+  }
